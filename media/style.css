@@ -1,0 +1,52 @@
+.con1{
+    background-color: rgb(255, 127, 133);
+    height: 30vh;
+    width: 70vw;
+    margin: 5px;
+    align-items: center;
+}
+.con2{
+    background-color: rgb(227, 255, 127);
+    height: 30vh;
+    width: 30vw;
+    margin: 5px;
+}
+
+.con3{
+    background-color: rgb(225, 127, 255);
+    height: 30vh;
+    width: 30vw;
+    margin: 5px;
+}
+.con4{
+    background-color: rgb(148, 255, 127);
+    height: 30vh;
+    width: 30vw;
+    margin: 5px;
+}
+.con5{
+    background-color: rgb(1, 15, 11);
+    height: 30vh;
+    width: 30vw;
+    margin: 5px;
+}
+.bg-container{
+    display: flex;
+
+
+}
+
+@media only screen and(max-width:650px){
+    .con1{
+        width: 100%;
+
+    }
+    .con2{
+        width: 100%;
+
+    }
+    .con3{
+        width: 100%;
+
+    }
+}

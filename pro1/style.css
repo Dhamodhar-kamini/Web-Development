@@ -1,0 +1,196 @@
+body{
+  margin: 0px;
+}
+.bg-container{
+    background-color: rgb(31 41 55);
+    height: 300vh;
+    width: auto;
+    margin: 0px;
+    
+}
+
+.image{
+    background-image: url("https://www.south-tirol.com/media/uw1g5hxw/michele-tardivo-g0onhccvwca-unsplash.jpg?rxy=0.49999981286556705,0.5426450908143767&width=1920&height=800&rnd=133572981904600000");
+    background-size: cover;
+    height: 100vh;
+    width: 91vw;
+    position: relative;
+    top: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-card-items{
+    position: absolute;
+    background-color: rgb(31 41 55);
+    opacity: 0.9;
+    height: 23vh;
+    width: 85vw;
+    margin-left: 90px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.heading{
+    color: black;
+    text-align: end;
+    padding-top: 80px;
+    padding-right: 30px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paragraph{
+    color: black;
+    text-align: end;
+    padding-top: 5px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.anchors{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.anchors:hover{
+    color: white;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .switchtext{
+    color: white;
+    font-weight: 600;
+    padding-top: 20px;
+  }
+
+  .selectelement{
+    background-color: rgb(31 41 55);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    font-size: 17px;
+    margin-left: 15px;
+    width: 10vw;
+}
+
+.card-container{
+    margin-top: 180px;
+    margin-left: 40px;
+}
+h2{
+    color: white;
+    font-weight: bold;
+}
+
+.card{
+    margin-top: 40px;
+    margin-left: 88px;
+}
+
+.card-bg{
+    background-color: rgb(31 41 55);
+    color: white;
+}
+p{
+    color: darkgray;
+    font-size: small;
+}
+.icon-para{
+    margin-left: 10px;
+}
+.icon{
+    margin-left: 60px;
+}
+.price{
+    font-size: 20px;
+}
+.spanele{
+    color: rgb(187, 181, 181);
+    font-size: 15px;
+}
+.rating{
+    margin-left: 130px;
+}
+.rate{
+    margin-left: 5px;
+}
+
+@media only screen all (min-width: 1000px ){
+  .bg-container{
+    height: 150vh;
+    width: 100vw;
+    margin:0px;
+}
+}

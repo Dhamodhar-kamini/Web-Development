@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: blue;
+    height: 40vh;
+    width: 100vw;
+    color: white;
+    text-align:center;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.aside-bar{
+    background-color: pink;
+    height: 80vh;
+    width: 20vw;
+    float: left;
+    text-align:center;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.aside-right{
+    background-color:green;
+    height: 80vh;
+    width: 20vw;
+    float: right;
+    text-align:center;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.section{
+    background-color: red;
+    height: 80vh;
+    width: 55vw;
+    float: left;
+    text-align:center;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 80px;
+    color: white;
+}
+.footer{
+    background-color: olivedrab;
+    height: 40vh;
+    width: 100vw;
+    color: white;
+    text-align:center;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 300px) {
+    .header{
+        width: 100%;
+        height: 20vh;
+    }
+    .section{
+        width: 100%;
+        
+    }
+    .aside-bar{
+        width: 100%;
+        height: 10%
+    }
+    .aside-right{
+        width: 100%;
+        height: 20%;
+
+    }
+    .footer{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px){
+    
+    .header{
+        width: 200%;
+        height: 30vh;
+    }
+    .section{
+        width: 200%;
+        
+    }
+    .aside-bar{
+        width: 200%;
+        height: 20%
+    }
+    .aside-right{
+        width: 200%;
+        height: 30%;
+
+    }
+    .footer{
+        width: 200%;
+    }
+
+}
+@media only screen and (max-width: 1040px){
+    .header{
+        width: 300%;
+        height: 40vh;
+    }
+    .section{
+        width: 300%;
+        
+    }
+    .aside-bar{
+        width: 400%;
+        height: 30%
+    }
+    .aside-right{
+        width: 300%;
+        height: 50%;
+
+    }
+    .footer{
+        width: 00%;
+    }
+}

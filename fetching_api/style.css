@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    height: 150px;
+    
+}
+#cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+.card{
+    width: 23%;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+.title{
+    font-size: 15px;
+}
+.description{
+    text-align: center;
+    font-size: 10px;
+}
+.category, .price{
+    font-weight: bold;
+    font-size: 13px;
+}

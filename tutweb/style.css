@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-section{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+p1{
+    
+}
+.social-icons{
+    margin-right: 10px;
+}
+.social-link-container{
+    background-color: white;
+    height: 30vh;
+}
+.details{
+    margin-left: 300px;
+}
+p6{
+    margin-left: 15px;
+}
+.contact-Containaer{
+    background-color: white;
+    height: 65vh;
+}
+.card-text2{
+    color: black;
+    font-style: normal;
+    font-size: 13.5px;
+}
+.card-title{
+    font-size: 16px;
+}
+.card-body{
+    text-align: start;
+}
+div p5{
+    background-color: black;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.items{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p5{
+    padding: 8px;
+    border-radius: 70px;
+    font-size: 12px;
+   
+}
+p3{
+    margin-right: 15px;
+    margin-left: 10px;
+    
+}
+.inner-container{
+    background-color: white;
+    height: 25vh;
+    width: 60vw;
+}
+.bg-container{
+    background-color: black;
+    height: 120vh;
+}
+.para{
+    text-align: left;
+    margin-left: 350px;
+    font-style: italic;
+    color: grey;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.card-text{
+    font-style: normal;
+    color: grey;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+nav navsection{
+    position: fixed;
+    top: 0px;
+}
+.navbox a{
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    display: flex;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.navbox a:hover{
+    color: rgb(20, 14, 14);
+    background-color: white;
+}
+
+@media only screen and (max-width:600px) {
+    .para{
+        width: 50%;
+    }
+}

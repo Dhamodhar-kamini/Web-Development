@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="" class="">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input id="fullname" type="text" placeholder="Enter your name" required>
+            <p id="errorname"></p>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input id="username" type="text" placeholder="Enter your username" required>
+            <p id="errorusername"></p>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input id="email" type="text" placeholder="Enter your email" required>
+            <p id="erroremail"></p>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input id="phonenumber" type="text" placeholder="Enter your number" required>
+            <p id="errorphonenum"></p>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input id="password" type="text" placeholder="Enter your password" required>
+            <p id="errorpassword"></p>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input id="conformpassword" type="text" placeholder="Confirm your password" required>
+            <p id="errorconformpassw"></p>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+
+
+        <!-- <button class="btn-shine" id="registerbtn"  type="submit" value="Register">
+            <span>Shine</span>
+        </button> -->
+        <!-- <button id="registerbtn" type="submit" value="Register" class="btn">
+            Watch
+          </button> -->
+        <div class="button">
+          <input id="registerbtn" type="submit" value="Register">
+          <!-- <button id="registerbtn" class="regbutton" type="button" onclick="registerbtn()">Register</button> -->
+        
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js" ></script>
+</body>
+</html>

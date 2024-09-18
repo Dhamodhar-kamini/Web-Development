@@ -1,0 +1,106 @@
+
+.navbarsection{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    position: -webkit-sticky;
+    
+}
+.navbarsection{
+    background-color: black;
+    background-size: cover;
+    height: 10vh;
+    margin: 0px;
+    
+}
+
+.navs a{
+    color: white;
+
+}
+.navs a:hover{
+    color: black;
+    background-color: white;
+    
+
+}
+
+
+p1{
+    text-align: left;
+    margin-left: 340px;
+}
+.social-icons{
+    margin-right: 10px;
+}
+.social-link-container{
+    background-color: white;
+    height: 30vh;
+}
+.details{
+    margin-left: 300px;
+}
+p6{
+    margin-left: 15px;
+}
+.contact-Containaer{
+    background-color: white;
+    height: 65vh;
+}
+.card-text2{
+    color: black;
+    font-style: normal;
+    font-size: 13.5px;
+}
+.card-title{
+    font-size: 16px;
+}
+.card-body{
+    text-align: start;
+}
+div p5{
+    background-color: black;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.items{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p5{
+    padding: 8px;
+    border-radius: 70px;
+    font-size: 12px;
+   
+}
+p3{
+    margin-right: 15px;
+    margin-left: 10px;
+    
+}
+.inner-container{
+    background-color: white;
+    height: 25vh;
+    width: 60vw;
+}
+.bg-container{
+    background-color: black;
+    height: 120vh;
+}
+p{
+    font-style: italic;
+    color: grey;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.card-text{
+    font-style: normal;
+    color: grey;
+    font-weight: 500;
+    font-size: 15px;
+
+}

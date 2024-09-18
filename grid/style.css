@@ -1,0 +1,17 @@
+
+.grid-item{
+    background-color: rgb(62, 66, 66);
+    padding: 10px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(153, 153, 115);
+    padding: 10px;
+}   
+
+.natureimg{
+    height:30vh;
+    width: 30vw;
+}
