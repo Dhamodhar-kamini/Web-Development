@@ -1025,6 +1025,7 @@ span{
   border-image-width: initial;
   border-image-outset: initial;
   border-image-repeat: initial;
+  cursor: pointer;
 }
 
 .landing_page .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-6.wk-ipadp-6.emial {
