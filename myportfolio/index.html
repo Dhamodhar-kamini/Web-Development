@@ -14,10 +14,37 @@
             <img class="logo" src="https://res.cloudinary.com/dmm9lymsm/image/upload/v1727245810/DKK-removebg-preview_nwk0qg.png" alt="">
         </a>
 
+
+        <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" id="menuCheckbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <li>
+                  <a href="#">
+                    <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                  </a>
+                </li>
+                <li>
+                  <a href="#about">
+                    <label for="menuCheckbox" onclick="this.parentNode.click();">About</label>
+                  </a>
+                </li>
+                <li><label for="menuCheckbox"><a>Info</a></label></li>
+                <li><label for="menuCheckbox"><a>Contact</a></label></li>
+                <li>
+                  <a href="https://erikterwan.com/" target="_blank">Show me more</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
         <nav>
             <a href="#Home" class="active"> Home</a>
-            <a href="#Services" >Services</a>
-            <a href="#Skills" >Skills</a>
+            <a href="#Services" >Skills</a>
+            <a href="#Skills" >Services</a>
             <a href="#Projects" >Projects</a>
             <a href="#contact" id="Contact" >Contact</a>
         </nav>
@@ -561,7 +588,23 @@
                             <p class="card__description">A sleek and intuitive to-do list website designed to boost productivity, featuring custom task categories, deadline reminders, and a responsive user interface</p>
                         </div>
                     </div>
+                    
+                    <div class="card-pro">
+                        <img class="pro-img4" src="https://cdn.dribbble.com/userupload/11504702/file/original-2827915425655a2867db6319cae377da.png?resize=752x" alt="">
+                        <div class="card__content">
+                            <p class="card__title">Weather application</p>
+                            <p class="card__description">A weather application provides real-time weather updates, forecasts, and alerts to help users stay informed about current and upcoming weather conditions in their location.</p>
+                        </div>
+                    </div>
+
                 </div>
+
+
+                
+                    
+                
+
+
 
 
         </div>
@@ -637,8 +680,11 @@
   </div>
     
 
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
 </body>
 </html>
