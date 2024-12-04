@@ -94,7 +94,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: -50px;
-    margin-top: 5px;
+    margin-top: 1px;
 }
 .discript{
     display: flex;
@@ -110,6 +110,7 @@ body{
 .btns{
     margin-left: -130px;
     margin-top: 20px;
+    text-decoration: none;
 }
 button {
     position: relative;
@@ -125,6 +126,9 @@ button {
     border: none;
     height: 8vh;
     
+  }
+  .btns a {
+    text-decoration: none;
   }
   .btn1{
     border-radius: 4px;
