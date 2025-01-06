@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Banaras Saree",
+        "Price": 200,
+        "image": "https://assets.isu.pub/document-structure/230130071810-ad3cb72650fcc69f04ca7afc076424c3/v1/4c28f923c0691002f73ca2ad1da73336.jpeg"
+
+    },
+    {
+        "id": 2,
+        "name": "Pattu Saree",
+        "Price": 300,
+        "image": "https://images.meesho.com/images/products/71316689/ehxt3_512.jpg"
+        
+    },
+    {
+        "id": 3,
+        "name": "Banaras Saree",
+        "Price": 500,
+        "image": "https://images.fwdlife.in/2024/02/Main_Banner_1600x.webp"
+        
+    },
+    {
+        "id": 4,
+        "name": "Banaras Saree",
+        "Price": 10000,
+        "image": "https://cdn0.weddingwire.in/article/0967/original/1280/jpg/127690-lighthouse-productions.jpeg"
+        
+    },
+    {
+        "id": 5,
+        "name": "Banaras Saree",
+        "Price": 10000,
+        "image": "./assets/Begeecha banaras"
+        
+    },
+    {
+        "id": 6,
+        "name": "Banaras Saree",
+        "Price": 10000,
+        "image": "./assets/redsaree"
+        
+    },
+    {
+        "id": 7,
+        "name": "Banaras Saree",
+        "Price": 10000,
+        "image": "./assets/saree1"
+        
+    },
+    {
+        "id": 8,
+        "name": "Banaras Saree",
+        "Price": 10000,
+        "image": "./assets/saree2"
+        
+    },
+    {
+        "id": 9,
+        "name": "Banaras Saree",
+        "Price": 10000,
+        "image": "./assets/saree3"
+        
+    },
+    {
+        "id": 8,
+        "name": "Banaras Saree",
+        "Price": 10000,
+        "image": "./assets/yellowsaree"
+        
+    }
+]

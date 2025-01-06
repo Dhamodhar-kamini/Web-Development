@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* Fullscreen styling for the branding video */
+#branding-video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #085247; /* Fallback background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Ensure it's on top of other content */
+}
+
+#branding-video {
+    /* max-width: 100%;
+    max-height: 100%; 
+    */
+      height: 100vh;
+      width: 150vw;   
+}
+
+/* Hide website content until video is done */
+#website-content {
+    display: none;
+}
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Bebas Neue", serif;
+}
+.cart-icon{
+    height: 30px;
+    cursor: pointer;
+}
+.icon-cart span{
+    display: inline-block;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav{
+    position: sticky;
+    top: 10px;
+}
+header .title{
+    font-size: 30px;
+}
+
+/* CoverPage */
+.coverPageImg{
+    height: 100%;
+    width: 100%;
+}
+
+video{
+    height: 100px;
+    width: 20vw;
+    margin-bottom: -28px;
+    margin-top: -18px;
+    margin-left: -130px;
+}
+    
+.title{
+    top: 2px;
+}
+
+#products-list{
+    margin: 20px;
+    background-color: rgba(247, 243, 243, 0.973);
+    height: auto;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.listProduct .item{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(230, 224, 224);
+    gap: 10px;
+}
+.listProduct .item .price{
+    margin-top: -40px;
+}
+.saree-img{
+    height: 50vh;
+    width: 30vw;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.cart-tab{
+    background-color: black;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    inset: 0 -405px 0 auto;
+    display: grid;
+    transition: .5s;
+    overflow-y: scroll;
+}
+.container{
+    transition: transform .5s;
+}
+body .showCart .container{
+    transform: translateX(-250px);
+}
+body.showCart .cart-tab{
+    inset: 0 0 0 auto;
+} 
+.cart-tab h1{
+    color: white;
+    margin-left: 20px;
+}
+.cart-tab .Btn{
+    align-self: flex-end;   
+}
+.cart-tab .Btn button{
+    padding: 15px;
+    width: 49%;
+    border: 0px;
+    font-weight: bold;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.cart-tab .Btn .checkOut{
+    background-color: yellow;
+}
+#addCart{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    color: black;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.cart-items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: -50px;
+}
+.cart-item-img{
+    height: 5vh;
+    width: 4vw;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.cart-items h1{
+    font-size: small;
+    margin-left: -18px;
+    padding-top: 5px;
+}
+.cart-items p{
+    font-size: small;
+    color: white;
+    margin-left: -15px;
+}
+.cart-items .plus{
+    color: black;
+    font-weight: bold;
+    margin-left: 50px;
+    gap: 0px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+.cart-items .minus{
+    color: black;
+    font-weight: bold;
+    margin-left: -40px;
+    gap: 0px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+.cart-items .quantity-count{
+    color: white;
+    margin-left: -50px;
+    gap: 0px;   
+}
+.quantity{
+    margin-left: -10px;
+}
+.pqm-con{
+    margin-top: 8px;
+}
+
+/* cart-item */
+.image{
+    height: 30px;
+}
+
+.cart-tab .list-cart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;  
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.list-cart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    color: #555;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.list-cart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+}
+.list-cart .item:nth-child(even){
+    background-color: #eee1;
+}
+.list-cart{
+    overflow: auto;
+}
+.list-cart::-webkit-scrollbar{
+    width: 0;
+}

@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Branding Splash</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form action="https://formsubmit.co/dhamukamini288@gmail.com" method="POST">
-        <input type="text" name="name" required>
-        <input type="email" name="email" required>
-        <button type="submit">Send</button>
-   </form>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <video id="branding-video" autoplay muted>
+            <source src="./assets/VASTRADHAN.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Main Website Content -->
+    <div id="main-content" style="display: none;">
+        <h1>Welcome to the Website</h1>
+        <p>This is the main content of your site.</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

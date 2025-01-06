@@ -1,52 +1,62 @@
-.con1{
-    background-color: rgb(255, 127, 133);
-    height: 30vh;
-    width: 70vw;
-    margin: 5px;
-    align-items: center;
-}
-.con2{
-    background-color: rgb(227, 255, 127);
-    height: 30vh;
-    width: 30vw;
-    margin: 5px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(24, 24, 31);
 }
 
-.con3{
-    background-color: rgb(225, 127, 255);
-    height: 30vh;
-    width: 30vw;
-    margin: 5px;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-.con4{
-    background-color: rgb(148, 255, 127);
-    height: 30vh;
-    width: 30vw;
-    margin: 5px;
+h1{
+    color: #ffff;
 }
-.con5{
-    background-color: rgb(1, 15, 11);
-    height: 30vh;
-    width: 30vw;
-    margin: 5px;
+.sec{
+    height: 100vh;
+}  
+.sec-1{
+    align-content: center;
 }
-.bg-container{
-    display: flex;
-
-
+.autoshow{
+opacity: 0; /* Initially hidden */
+transform: translateY(50px); /* Start from below */
+transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-@media only screen and(max-width:650px){
-    .con1{
-        width: 100%;
+/* Scroll Animation Trigger */
+.autoshow:is(:is-in-view) {
+opacity: 1;
+transform: translateY(0);
+}
 
+/* To ensure animation is staggered, use nth-child */
+.autoshow:nth-child(2):is(:is-in-view) {
+transition-delay: 0.2s;
+}
+
+.autoshow:nth-child(3):is(:is-in-view) {
+transition-delay: 0.4s;
+}
+
+.autoshow:nth-child(4):is(:is-in-view) {
+transition-delay: 0.6s;
+}
+
+.autoshow:nth-child(5):is(:is-in-view) {
+transition-delay: 0.8s;
+}
+/* @keyframes  autoShowanimation{
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
     }
-    .con2{
-        width: 100%;
-
+    to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
     }
-    .con3{
-        width: 100%;
-
-    }
-}
+    
+} */

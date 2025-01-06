@@ -213,7 +213,7 @@ vr{
 .skills{
     display: flex;
     flex-direction: column;
-    height: 208vh;
+    height: 215vh;
     width: 100vw;
     background-color: #b1a8ac;
 
@@ -572,7 +572,7 @@ span{
 .services{
     background-color:rgb(191, 235, 217);
     background-size: cover;
-    height: 160vh;
+    height: 170vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1317,7 +1317,7 @@ span{
   }
 }
 
-/* From Uiverse.io by ShrinilDhorda */ 
+ 
 .btn {
   font-size: 1.2rem;
   padding: 1rem 2.5rem;
@@ -1344,6 +1344,50 @@ span{
   color: rgb(4, 4, 38);
 }
 
+/* footer section */
+.contact-us{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+
+/* animations */
+.autoshow{
+  animation: autoShowanimation 20s;
+  animation-timeline: view();
+}
+@keyframes  autoShowanimation{
+  from{
+    opacity: 0;
+      transform: translateY(240px);
+  }
+  to{
+      opacity: 1;
+      transform: translateY(-240px);
+  }
+  
+}
+
+.autoshow2{
+  animation: autoShowanimation;
+  animation-timeline: view();
+}
+@keyframes  autoShowanimation{
+  from{
+      opacity: 0;
+      transform: translateY(200px) scale(0.3);
+  }
+  to{
+      opacity: 1;
+      transform: translateY(0) scale(1);
+  }
+  
+}
+
+
+
+
+
 
 
 @media screen and (max-width:700px){
@@ -1365,9 +1409,8 @@ span{
         height: 100vh;
     }
     .about{
-        height: auto;
         width: 262vw;
-        height: 250vh;
+        height: 280vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1376,6 +1419,16 @@ span{
     .about-me{
         margin-top: 50px;
         margin-left: 50px;
+        text-align: center;
+    }
+    .intro{
+      /* margin-top: 50px;
+      margin-left: 50px; */
+      text-align: center;
+      justify-content: center;
+      align-content: center;  
+      margin-right: -80px;
+      margin-left: 150px;
     }
     h2{
         font-size: 30px;
@@ -1405,7 +1458,7 @@ span{
     }
     .skills{
         width: 262vw;
-        height: 420vh;
+        height: 430vh;
     }
     .skill{
         font-size: 30px;
@@ -1486,6 +1539,7 @@ span{
       .projects{
         width: 262vw;
         height: 270vh;
+        height: auto;
         
       }
       .project-card{
@@ -1502,9 +1556,25 @@ span{
         font-size: 60px;
       }
       .card-pro{
-        height: 60vh;
-        width: 90vw;
+        height: 100vh;
+        width: 150vw;
         margin-bottom: 20px;
+      }
+      .pro-img{
+        height: 50%;
+      }
+      .pro-img2{
+        height: 30%;
+      }
+      .pro-img3{
+        height: 55%;
+      }
+      .pro-img44{
+        height: 30%;
+        width: 100%;
+      }
+      .pro-img4{
+        height: 50%;
       }
       .landing_page{
         width: 262vw;
@@ -1513,6 +1583,9 @@ span{
       .content-box{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-left: 200px;
       }
       .responsive-cell-block{
         display: flex;
