@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
+body{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
 /* Fullscreen styling for the branding video */
 #branding-video-container {
     position: fixed;
@@ -8,11 +10,11 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #085247; /* Fallback background */
+    background-color: #085247; 
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 9999; /* Ensure it's on top of other content */
+    z-index: 9999; 
 }
 
 #branding-video {
@@ -28,7 +30,84 @@
     display: none;
 }
 
+.search-bar input{
+    padding: 5px;
+    font-family:'Roboto';
+    font-weight: 600;
+    justify-content: center;
+    align-self: center;
+    margin-left: 310px;
 
+}
+
+.search-bar svg{
+    height: 18px;
+    padding-top: 10px;
+    margin-bottom: -11px;
+    background-color: rgb(171, 197, 171);
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    cursor: pointer;
+}
+.navLinks{
+    margin-top: 25px;
+    margin-bottom: -50px;
+    margin-left: -100px;
+    
+}
+.navLinks a{
+    text-decoration: none;
+    color: rgb(190, 186, 186);
+    gap: 10px;
+    padding-left: 70px;
+    justify-content: space-around;
+    position: relative;
+    display: inline-block;
+}
+.navLinks a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: black;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s ease-in-out;
+  }
+  .navLinks a:hover::after {
+    width: 60%;
+    margin-left: 60px;
+  }
+
+/* .navLinks a:hover{
+    text-decoration:underline;
+    position: relative;
+    transition: width 0.3s ease-in-out;
+} */
+
+
+.navLinks .login {
+    font-weight: bold;
+    color: rgb(146, 140, 140);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.navLinks .login:hover {
+    
+    /* text-decoration: underline; */
+}
+
+
+
+
+.nav{
+    /* background-color: rgb(250, 222, 188); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,17,73,0.8911939775910365) 35%, rgba(0,212,255,1) 100%);
+    height: 17vh;
+}
 
 body{
     margin: 0px;
@@ -59,16 +138,39 @@ header{
 }
 .nav{
     position: sticky;
-    top: 10px;
+    top: 0;
+    padding: 2px;
 }
 header .title{
     font-size: 30px;
 }
 
 /* CoverPage */
-.coverPageImg{
-    height: 100%;
+.cover-page{
+    background-image: url("./assets/redsaree");
+    background-size: cover;
+    height: 120vh;
     width: 100%;
+}
+.cover-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-page .brandPage .brand-title{
+    margin-top: 0px;
+    color: #c2bcae ;
+    font-size: 70px;
+    margin-left: -300px;
+    margin-top: -200px;
+}
+.cover-page .brandPage .sub-title{
+    color: #4acdb4 ;
+    text-transform: lowercase;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -280px;
+    margin-top: -60px;
 }
 
 video{
@@ -85,7 +187,7 @@ video{
 
 #products-list{
     margin: 20px;
-    background-color: rgba(247, 243, 243, 0.973);
+    /* background-color: rgba(247, 243, 243, 0.973); */
     height: auto;
     flex-wrap: wrap;
     display: grid;
@@ -94,7 +196,7 @@ video{
 .listProduct .item{
     padding: 20px;
     text-align: center;
-    background-color: rgb(230, 224, 224);
+    /* background-color: rgb(230, 224, 224); */
     gap: 10px;
 }
 .listProduct .item .price{

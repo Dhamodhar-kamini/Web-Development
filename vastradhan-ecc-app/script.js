@@ -8,9 +8,15 @@ let iconCartSpan = document.querySelector('.icon-cart span')
 
 
 
+
 const brandingVideo = document.getElementById('branding-video');
 const brandingContainer = document.getElementById('branding-video-container');
 const websiteContent = document.getElementById('website-content');
+
+//login form
+
+
+
 
 // Add event listener for video end
 brandingVideo.addEventListener('ended', () => {
