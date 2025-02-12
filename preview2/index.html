@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aira Educational Academy</title>
+<link rel="canonical" href="https://airaeducationalacademy.com">
+<meta name="description" content="Aira Educational Academy - Empowering minds and shaping futures through excellence in education.">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#1e40af',
+secondary: '#60a5fa'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.testimonial-slide {
+display: none;
+}
+.testimonial-slide.active {
+display: block;
+}
+.counter {
+opacity: 0;
+transform: translateY(20px);
+transition: opacity 0.5s, transform 0.5s;
+}
+.counter.visible {
+opacity: 1;
+transform: translateY(0);
+}
+</style>
+</head>
+<body class="bg-white">
+<div class="bg-primary text-white py-2">
+<div class="container mx-auto px-4 flex justify-between items-center">
+<div class="flex items-center space-x-4">
+<span class="flex items-center">
+<i class="ri-phone-line ri-lg mr-2"></i>
++1 (555) 123-4567
+</span>
+<span class="flex items-center">
+<i class="ri-mail-line ri-lg mr-2"></i>
+info@airaeducationalacademy.com
+</span>
+</div>
+<div class="flex space-x-4">
+<a href="#" class="hover:text-secondary"><i class="ri-facebook-fill ri-lg"></i></a>
+<a href="#" class="hover:text-secondary"><i class="ri-twitter-fill ri-lg"></i></a>
+<a href="#" class="hover:text-secondary"><i class="ri-linkedin-fill ri-lg"></i></a>
+<a href="#" class="hover:text-secondary"><i class="ri-instagram-fill ri-lg"></i></a>
+</div>
+</div>
+</div>
+<nav class="bg-white shadow-lg sticky top-0 z-50">
+<div class="container mx-auto px-4">
+<div class="flex justify-between items-center h-20">
+<a href="#" class="flex items-center">
+<img src="https://static.readdy.ai/image/7b764ce9fae2e25c180614f9e4fbadf2/7501a46b09ebb4851cfea65657656da2.png" alt="Logo" class="h-12">
+</a>
+<div class="hidden md:flex space-x-8">
+<a href="#" class="text-gray-700 hover:text-primary">Home</a>
+<a href="#" class="text-gray-700 hover:text-primary">About</a>
+<a href="#" class="text-gray-700 hover:text-primary">Courses</a>
+<a href="#" class="text-gray-700 hover:text-primary">Faculty</a>
+<a href="#" class="text-gray-700 hover:text-primary">Admissions</a>
+<a href="#" class="text-gray-700 hover:text-primary">Contact</a>
+</div>
+<button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 whitespace-nowrap">
+Apply Now
+</button>
+</div>
+</div>
+</nav>
+<div class="relative h-[600px] bg-cover bg-center" style="background-image: url('https://public.readdy.ai/ai/img_res/5cc672f894a6aabafb182feb8e138807.jpg')">
+<div class="absolute inset-0 bg-black bg-opacity-50"></div>
+<div class="container mx-auto px-4 relative h-full flex items-center">
+<div class="text-white max-w-2xl">
+<h1 class="text-5xl font-bold mb-6">Empowering Minds, Shaping Futures</h1>
+<p class="text-xl mb-8">Experience world-class education with innovative teaching methods and state-of-the-art facilities at Aira Educational Academy.</p>
+<div class="flex space-x-4">
+<button class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-opacity-90 whitespace-nowrap">
+Explore Programs
+</button>
+<button class="bg-white text-primary px-8 py-3 !rounded-button hover:bg-opacity-90 whitespace-nowrap">
+Schedule a Visit
+</button>
+</div>
+</div>
+</div>
+</div>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded shadow-lg text-center">
+<div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+<i class="ri-award-line ri-3x text-primary"></i>
+</div>
+<h3 class="text-xl font-bold mb-4">Excellence in Education</h3>
+<p class="text-gray-600">Internationally recognized programs designed to meet global standards.</p>
+</div>
+<div class="bg-white p-8 rounded shadow-lg text-center">
+<div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+<i class="ri-team-line ri-3x text-primary"></i>
+</div>
+<h3 class="text-xl font-bold mb-4">Expert Faculty</h3>
+<p class="text-gray-600">Learn from industry experts and experienced educators.</p>
+</div>
+<div class="bg-white p-8 rounded shadow-lg text-center">
+<div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+<i class="ri-building-4-line ri-3x text-primary"></i>
+</div>
+<h3 class="text-xl font-bold mb-4">Modern Campus</h3>
+<p class="text-gray-600">State-of-the-art facilities and technology-enabled learning spaces.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-12">Featured Courses</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<img src="https://public.readdy.ai/ai/img_res/93e3e48f478d3d447323320487015374.jpg" alt="Business Administration" class="w-full h-48 object-cover">
+<div class="p-6">
+<h3 class="text-xl font-bold mb-2">Business Administration</h3>
+<p class="text-gray-600 mb-4">Comprehensive program covering all aspects of modern business management.</p>
+<div class="flex justify-between items-center">
+<span class="text-sm text-gray-500">Duration: 4 years</span>
+<button class="text-primary hover:text-secondary whitespace-nowrap">Learn More →</button>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<img src="https://public.readdy.ai/ai/img_res/0f6d469e497f66f7a0b4e55fa63792f6.jpg" alt="Computer Science" class="w-full h-48 object-cover">
+<div class="p-6">
+<h3 class="text-xl font-bold mb-2">Computer Science</h3>
+<p class="text-gray-600 mb-4">Advanced programming and software development with industry focus.</p>
+<div class="flex justify-between items-center">
+<span class="text-sm text-gray-500">Duration: 4 years</span>
+<button class="text-primary hover:text-secondary whitespace-nowrap">Learn More →</button>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<img src="https://public.readdy.ai/ai/img_res/632a6034d6fb4a929b4e72cb3a51a07a.jpg" alt="Engineering" class="w-full h-48 object-cover">
+<div class="p-6">
+<h3 class="text-xl font-bold mb-2">Engineering</h3>
+<p class="text-gray-600 mb-4">Innovative engineering programs with hands-on practical experience.</p>
+<div class="flex justify-between items-center">
+<span class="text-sm text-gray-500">Duration: 4 years</span>
+<button class="text-primary hover:text-secondary whitespace-nowrap">Learn More →</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-primary text-white">
+<div class="container mx-auto px-4">
+<div class="grid md:grid-cols-4 gap-8 text-center">
+<div class="counter">
+<div class="text-4xl font-bold mb-2" data-target="5000">0</div>
+<div class="text-lg">Students Enrolled</div>
+</div>
+<div class="counter">
+<div class="text-4xl font-bold mb-2" data-target="200">0</div>
+<div class="text-lg">Expert Faculty</div>
+</div>
+<div class="counter">
+<div class="text-4xl font-bold mb-2" data-target="50">0</div>
+<div class="text-lg">Programs Offered</div>
+</div>
+<div class="counter">
+<div class="text-4xl font-bold mb-2" data-target="95">0</div>
+<div class="text-lg">Success Rate</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-12">What Our Students Say</h2>
+<div class="relative max-w-3xl mx-auto">
+<div class="testimonial-container">
+<div class="testimonial-slide active">
+<div class="bg-white p-8 rounded-lg shadow-lg text-center">
+<img src="https://public.readdy.ai/ai/img_res/e739eaf793a578914f22a3600b443ee9.jpg" alt="Sarah Johnson" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover">
+<p class="text-gray-600 mb-4">"The quality of education and support from faculty at Aira Academy has been exceptional. I've gained valuable skills that prepared me for my career."</p>
+<div class="text-yellow-400 mb-2">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<h4 class="font-bold">Sarah Johnson</h4>
+<p class="text-sm text-gray-500">Business Administration Graduate</p>
+</div>
+</div>
+<div class="testimonial-slide">
+<div class="bg-white p-8 rounded-lg shadow-lg text-center">
+<img src="https://public.readdy.ai/ai/img_res/2b2fe1f4c6f527981125765d2fec1d2a.jpg" alt="Michael Chen" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover">
+<p class="text-gray-600 mb-4">"The practical approach to learning and industry connections helped me secure my dream job even before graduation."</p>
+<div class="text-yellow-400 mb-2">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<h4 class="font-bold">Michael Chen</h4>
+<p class="text-sm text-gray-500">Computer Science Graduate</p>
+</div>
+</div>
+</div>
+<button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100" onclick="prevSlide()">
+<i class="ri-arrow-left-s-line ri-2x"></i>
+</button>
+<button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100" onclick="nextSlide()">
+<i class="ri-arrow-right-s-line ri-2x"></i>
+</button>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-center mb-12">Latest News & Events</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<img src="https://public.readdy.ai/ai/img_res/cd87798e112e0e473ca6ab62646709e2.jpg" alt="Annual Conference" class="w-full h-48 object-cover">
+<div class="p-6">
+<div class="text-sm text-gray-500 mb-2">February 15, 2025</div>
+<h3 class="text-xl font-bold mb-2">Annual Academic Conference</h3>
+<p class="text-gray-600">Join us for our annual academic conference featuring renowned speakers from around the world.</p>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<img src="https://public.readdy.ai/ai/img_res/1aa52d76a7e844680fc94ca50cc1bff2.jpg" alt="Tech Workshop" class="w-full h-48 object-cover">
+<div class="p-6">
+<div class="text-sm text-gray-500 mb-2">February 20, 2025</div>
+<h3 class="text-xl font-bold mb-2">Technology Workshop Series</h3>
+<p class="text-gray-600">Hands-on workshops covering the latest technologies and industry trends.</p>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<img src="https://public.readdy.ai/ai/img_res/575cc88cf351c49adcf22f4827b7611f.jpg" alt="Career Fair" class="w-full h-48 object-cover">
+<div class="p-6">
+<div class="text-sm text-gray-500 mb-2">March 5, 2025</div>
+<h3 class="text-xl font-bold mb-2">Spring Career Fair</h3>
+<p class="text-gray-600">Connect with leading employers and explore career opportunities.</p>
+</div>
+</div>
+</div>
+<div class="text-center mt-8">
+<button class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-opacity-90 whitespace-nowrap">
+View All News & Events
+</button>
+</div>
+</div>
+</section>
+<footer class="bg-gray-900 text-white py-12">
+<div class="container mx-auto px-4">
+<div class="grid md:grid-cols-4 gap-8">
+<div>
+<div class="flex items-center mb-4">
+<img src="https://static.readdy.ai/image/7b764ce9fae2e25c180614f9e4fbadf2/7501a46b09ebb4851cfea65657656da2.png" alt="Logo" class="h-8">
+</div>
+<p class="text-gray-400">Empowering minds and shaping futures through excellence in education.</p>
+</div>
+<div>
+<h4 class="text-lg font-bold mb-4">Quick Links</h4>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Programs</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Admissions</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Campus Life</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-bold mb-4">Contact Us</h4>
+<ul class="space-y-2 text-gray-400">
+<li class="flex items-center">
+<i class="ri-map-pin-line mr-2"></i>
+123 Education Ave, Academic City
+</li>
+<li class="flex items-center">
+<i class="ri-phone-line mr-2"></i>
++1 (555) 123-4567
+</li>
+<li class="flex items-center">
+<i class="ri-mail-line mr-2"></i>
+info@airaeducationalacademy.com
+</li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-bold mb-4">Newsletter</h4>
+<p class="text-gray-400 mb-4">Subscribe to stay updated with latest news and events.</p>
+<form class="space-y-4">
+<input type="email" placeholder="Your email address" class="w-full px-4 py-2 rounded border-none text-gray-900">
+<button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 w-full whitespace-nowrap">
+Subscribe
+</button>
+</form>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400">© 2025 Aira Educational Academy. All rights reserved.</p>
+<div class="flex space-x-4 mt-4 md:mt-0">
+<a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
+<a href="#" class="text-gray-400 hover:text-white">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.testimonial-slide');
+function showSlide(n) {
+slides[currentSlide].classList.remove('active');
+currentSlide = (n + slides.length) % slides.length;
+slides[currentSlide].classList.add('active');
+}
+function nextSlide() {
+showSlide(currentSlide + 1);
+}
+function prevSlide() {
+showSlide(currentSlide - 1);
+}
+setInterval(nextSlide, 5000);
+const counters = document.querySelectorAll('.counter');
+const options = {
+threshold: 0.5
+};
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+entry.target.classList.add('visible');
+const target = parseInt(entry.target.querySelector('[data-target]').getAttribute('data-target'));
+const counter = entry.target.querySelector('[data-target]');
+let count = 0;
+const updateCounter = () => {
+const increment = target / 50;
+if (count < target) {
+count += increment;
+counter.innerText = Math.ceil(count);
+setTimeout(updateCounter, 20);
+} else {
+counter.innerText = target;
+}
+};
+updateCounter();
+observer.unobserve(entry.target);
+}
+});
+}, options);
+counters.forEach(counter => {
+observer.observe(counter);
+});
+</script>
+</body>
+</html>

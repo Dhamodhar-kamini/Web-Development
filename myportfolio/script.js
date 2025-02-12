@@ -96,3 +96,11 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     sendEmail();
 });
+
+
+document.addEventListener('keyup', (e) => {
+    if (e.key === 'PrintScreen'){
+        navigator.clipboard.writeText('');
+    alert('Screenshot Disabled');
+    }
+});
