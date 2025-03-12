@@ -98,19 +98,21 @@ body{
 }
 
 /* tile section */
-
+.title{
+  margin-left: 120px;
+}
 .title-card{
     display: flex;
 }
 .logo-title{
-    height: 12vh;
+    height: 15vh;
     margin-top: -100px;
-    margin-left: 120px;
+    margin-left: 50px;
 }
 .heading-title{
     color: white;
     margin-right: 300px;
-    margin-left: -20px;
+    margin-left: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin-top: 30px;
     font-weight: 500;
@@ -133,6 +135,7 @@ body{
 .discript{
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
 }
 .discription-title{
     color: white;
