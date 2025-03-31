@@ -1376,7 +1376,7 @@ body, button, input {
 /* responsive large screen  */
 @media screen and (max-width:767px){
   #home{
-      width: 250%;
+      width: 1000px;
       height: 280vh;
       background-image: url("./images/airawallpmd3.jpg");
       background-size: cover;
@@ -1504,7 +1504,7 @@ body, button, input {
 
     /* course secion */
     #services{
-      width: 250%;
+      width: 1000px;
       height: auto;
       padding-bottom: 50px;
     }
@@ -1553,7 +1553,7 @@ body, button, input {
 
     /* about section */
     #about{
-      width: 250%;
+      width: 1000px;
       height: auto;
       padding-bottom: 30px;
     }
@@ -1602,7 +1602,7 @@ body, button, input {
 
     /* program section */
     #programs{
-      width: 250%;
+      width: 1000px;
       height: auto;
       padding-bottom: 50px;
     }
@@ -1673,7 +1673,7 @@ body, button, input {
     
     /* franchise section */
     #partnerWithUS{
-      width: 250%;
+      width: 1000px;
       height: auto;
       padding-bottom: 50px;
     }
@@ -1708,7 +1708,7 @@ body, button, input {
       align-content: center;
     }
     #contact{
-      width: 250%;
+      width: 1000px;
       height: auto;
       padding-bottom: 30px;
       display: flex;
@@ -1772,7 +1772,7 @@ body, button, input {
 
     /* footer section */
     .footerSection{
-      width: 250%;
+      width: 1000px;
       height: auto;
       padding-bottom: 30px;
       display: flex;
@@ -1812,7 +1812,7 @@ body, button, input {
     
     /* inner franchies section */
     #innerContainerFranchise{
-      width: 250%;
+      width: 1000px;
       height: auto;
     }
     #innerContainerFranchise .franchiseCard .logosection .airaLogo{
@@ -1987,7 +1987,7 @@ body, button, input {
     }
     #copyrightsection{
       height: auto;
-      width: 250%;
+      width: 1000px;
       margin-top: -2px;
     }
     .copyrightsection{
